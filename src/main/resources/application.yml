@@ -1,0 +1,32 @@
+# DataBase MySQL
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/readinglibs
+    username: Hyeonchul
+    passwrod: dbslfjqm11
+
+# Mybatis config
+mybatis:
+  mapper-locations: mapper/*.xml
+
+# Naver API KEY
+naver:
+  client:
+    id: 2hcuw79toIblRSbdYQdq
+    secret: ZPBhoMM5t0
+
+#mybatis.type-aliases-package=com.algorithm.algoproject.dto
+
+## Method
+#spring.mvc.hiddenmethod.filter.enabled=true
+
+## Devtools LiveReload
+#spring.devtools.livereload.enabled=true
+#spring.devtools.livereload.port=35729
+#
+#spring.thymeleaf.cache=false
+
+## Message
+#spring.messages.basename=messages,errors
+#spring.messages.encoding=UTF-8
